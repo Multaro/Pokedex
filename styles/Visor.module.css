@@ -1,0 +1,9 @@
+.visor {
+    gap: 5px;
+    display: flex;
+    position: relative;
+    width: calc(0.42 * var(--pokedex-width));
+    height: calc(0.258 * var(--pokedex-width));
+    top: 305px;
+    right: 62px;
+}

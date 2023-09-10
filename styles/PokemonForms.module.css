@@ -1,0 +1,38 @@
+.pokemonData {
+    z-index: 1;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+}
+
+.genders {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.genderContainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.genders span {
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #a7a7a7;
+    background-color: #3a3a3af5;
+}
+
+.genders img {
+    width: calc(.1 * var(--pokedex-width));
+    height: calc(.1 * var(--pokedex-width));
+    border: 2px solid #a7a7a7;
+    border-radius: 100%;
+    background-color: #3a3a3af5;
+}

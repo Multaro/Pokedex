@@ -1,0 +1,15 @@
+.type {
+    padding: 5px;
+    border-radius: 0.2rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #333;
+    width: 100%;
+}
+
+.type .black {
+    color: black;
+}
+
+.type .white {
+    color: white;
+}

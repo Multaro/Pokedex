@@ -1,0 +1,27 @@
+.pokemonData {
+    display: flex;
+    z-index: 1;
+    overflow-Y: auto;
+}
+
+.search {
+    padding: 5px;
+    display: flex;
+    flex: 1;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.searchItem {
+    font-size: 100%;
+    width: 60px;
+    border-radius: 10px;
+    display: flex;
+    height: 60px;
+    background-color: #3a3a3af6;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

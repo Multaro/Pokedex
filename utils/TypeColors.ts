@@ -1,0 +1,20 @@
+export const typeColors = {
+    fire: '#b4530d',
+    water: '#1753e3',
+    grass: '#4a892b',
+    electric: '#c19b07',
+    ice: '#45b6b6',
+    fighting: '#82211b',
+    psychic: '#d6094',
+    poison: '#662966',
+    ground: '#aa8623',
+    flying: '#7762b6',
+    bug: '#616b13',
+    rock: '#746523',
+    ghost: '#413359',
+    dark: '#362a23',
+    steel: '#7a7aa7',
+    fairy: '#c1079b',
+    dragon: '#3d07c0',
+    normal: '#79794e'
+}

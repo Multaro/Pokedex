@@ -1,0 +1,81 @@
+.pokedex {
+    display: flex;
+    position: relative;
+    width: var(--pokedex-width);
+    height: var(--pokedex-heigth);
+    background-image: url('../midias/pokedex-removebg-preview.png');
+    background-size: cover; /* Faz a imagem cobrir todo o componente */
+    background-position: center center; /* Centraliza a imagem no componente */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+.pokedexFrame {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
+    top: 305px;
+    left: 215px;
+    width: calc(0.42 * var(--pokedex-width));
+    max-height: calc(0.258 * var(--pokedex-width));
+}
+
+.pokedexLight {
+    position: absolute;
+    border-radius: 100%;
+    left: 325px;
+    top: 81px;
+    width: calc(.086 * var(--pokedex-width));
+    height: calc(0.085 * var(--pokedex-width));
+}
+
+.pokedexBottomLight {
+    position: absolute;
+    bottom: 47px;
+    left: 303px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: calc(.068 * var(--pokedex-width));
+    height: calc(0.017 * var(--pokedex-width));
+}
+
+.pokedexBottomLight2 {
+    position: absolute;
+    bottom: 47px;
+    left: 356px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: calc(.068 * var(--pokedex-width));
+    height: calc(0.017 * var(--pokedex-width));
+}
+
+.pokedexSideLight {
+    position: absolute;
+    bottom: 240px;
+    left: 61px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 4px;
+    width: calc(.034 * var(--pokedex-width));
+    height: calc(0.027 * var(--pokedex-width));
+}
+
+.pokedexSideLight2 {
+    position: absolute;
+    bottom: 214px;
+    left: 61px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 4px;
+    width: calc(.034 * var(--pokedex-width));
+    height: calc(0.027 * var(--pokedex-width));
+}
+
+.isFalse {
+    background-image: radial-gradient(circle, #e8f0f2, #e9eff1, #eaeef1, #ebeeef, #ecedee, #e8e9e9, #e4e4e5, #e0e0e0, #d7d7d7, #cecece, #c5c5c5, #bcbcbc);
+}
+
+.isTrue {
+    background-image: radial-gradient(circle, #a1f6bf, #93f4b5, #85f2ab, #76efa1, #66ed96, #5ce78d, #51e085, #45da7c, #3ecf73, #37c46b, #30ba62, #28af5a);
+}

@@ -1,0 +1,43 @@
+.pokemonData {
+    padding-left: 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dataTitle {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+}
+
+.dataTitle h1 {
+    font-weight: 1000;
+    line-height: 0;
+    color: #ffcc38;
+    -webkit-text-stroke: 2px #2b6cb1;
+    text-stroke: 2px #a7a7a7;
+    text-shadow: -2px 2px 2px #1e2c5c;
+}
+
+.dataFooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dataFooter img {
+    width: 70%;
+    height: auto;
+}
+
+.dataFooter a {
+    z-index: 1;
+    -webkit-text-stroke-width: medium;
+    align-self: end;
+    font-weight: 200;
+    font-size: .8rem;
+    padding-right: 5px;
+    color: #3a3a3ad0
+}
